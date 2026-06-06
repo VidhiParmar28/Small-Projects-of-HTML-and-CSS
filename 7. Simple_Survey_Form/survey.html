@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+</head>
+<body>
+  
+    <form action="/action.php">
+        <h1>Feedback Survey Form</h1>
+        <label for="name">Name:</label> <input type="text" name="name" id="name">
+        <label for="email">Email:</label><input type="email" name="email" id="email">
+        <label for="age">Age:</label><input type="number" id="age" name="age" min="1" max="150">
+        <label for="feedback">Type of Feedback:</label>
+        <select name="feedback-type" id="feedback-type">
+            <option value="positive">positive</option>
+            <option value="negative">Negative</option>
+            <option value="Suggestion">Suggestion</option>
+        </select>
+
+        <fieldset>
+            <h2>Services Used</h2>
+            <input type="checkbox" id="service1" name="services" value="service1">
+            <label for="service1">Service 1</label><br>
+            <input type="checkbox" id="service2" name="services" value="service2">
+            <label for="service2">Service 2</label><br>
+            <input type="checkbox" id="service3" name="services" value="service3">
+            <label for="service3">Service 3</label>
+        </fieldset>
+
+        <label for="comments">Additional Comments</label>
+        <textarea name="comments" id="comments" rows="4"></textarea>
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+</html>
