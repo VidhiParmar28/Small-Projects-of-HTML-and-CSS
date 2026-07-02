@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: bisque;
+    color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+
+}
+
+
+.introduction{
+    height: 60px;
+    /* border: 2px solid rgb(231, 138, 138); */
+    background-color:bisque;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-family: cursive;
+    
+}
+
+h2{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingredients{
+    height: 230px;
+    border-radius: 8px;
+    background-color:pink;
+    color: green;
+    font-family: cursive;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+li{
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left:20px;
+}
+
+.instructions{
+    margin-top: 25px;
+    height: 500px;
+    border: 20px solid pink;
+    border-radius: 8px;
+    background-color:pink;
+    color: green;
+    font-family: cursive;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    color: green;
+    /* font-weight: bold; */
+    background-color:bisque;
+    position: fixed;
+    bottom: 0;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
