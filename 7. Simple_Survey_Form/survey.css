@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 68, 140);
+    background-image: url(https://img.freepik.com/premium-vector/feedback-seamless-pattern-background-white-vector_269504-2145.jpg);
+}
+
+form{
+    height: 700px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    /* background-color:black; */
+    border-radius: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+input{
+    border-radius: 5px;
+    background-color: pink;
+
+}
+
+fieldset{
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 5px;
+    color: black;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+   background-color: pink;
+}
+
+button:hover{
+    color: black;
+    background-color:white;
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: pink;
+}
+
+h1 ,h2{
+    color: black;
+}
